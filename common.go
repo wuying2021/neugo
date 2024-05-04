@@ -9,9 +9,13 @@ import (
 // NewSession returns a *http.Client with an empty cookie jar and timeout of 6s.
 func NewSession() *http.Client {
 	jar, _ := cookiejar.New(nil)
+	transport := &http.Transport{
+    		Proxy: nil, // 禁用系统代理
+	}
 	n := &http.Client{
 		Timeout: 6 * time.Second,
 		Jar:     jar,
+		Transport: transport,
 	}
 	return n
 }
