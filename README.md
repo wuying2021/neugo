@@ -1,6 +1,6 @@
 # NEU API
 
-![Codecov](https://img.shields.io/codecov/c/github/wuying2021/neugo?style=flat-square)
+![Codecov](https://img.shields.io/codecov/c/github/neugo/neugo?style=flat-square)
 [![Go Report Card](https://goreportcard.com/badge/github.com/wuying2021/neugo?style=flat-square)](https://goreportcard.com/report/github.com/wuying2021/neugo)
 ![Latest Tag](https://img.shields.io/github/v/tag/wuying2021/neugo?label=version&style=flat-square)
 
